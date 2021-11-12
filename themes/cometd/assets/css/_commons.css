@@ -16,15 +16,31 @@ a, a:hover, a:focus, button:hover, button:focus{
 }
 
 body {
-    background: #f8f8f8;
-    color: #000000;
-    font-size: 18px;
-    line-height: 24px;
-     font-family: 'Candara';
+    background: #ffffff;
+    color: #565d60;
+    font-size: 21px;
+    line-height: 27px;
+    font-family: 'Candara';
 }
 p{
 	line-height: 1.2;
 	margin-bottom: 15px;
+}
+a{
+	text-decoration: underline;
+	color: #99c9c0;
+}
+a:hover{
+	color: #373d3f;
+}
+strong,b{
+	font-weight: 700;
+}
+em,i{
+	font-style: italic;
+}
+u{
+	text-decoration: underline;
 }
 
 input[type=text],
@@ -38,7 +54,7 @@ textarea{
 }
 ::selection {
   color: #fff;
-  background: #512C36;
+  background: #99c9bf;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
