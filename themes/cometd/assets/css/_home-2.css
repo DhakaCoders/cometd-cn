@@ -54,6 +54,10 @@
 	font-family: 'Helvetica';
 	color: #fff;
 	text-decoration: none;
+	display: inline-block;
+}
+.hm-bnr-tel a:hover{
+	color: #eaeaea;
 }
 .hm-bnr-rgt-cntnt{
 	width: 47%;
@@ -81,7 +85,9 @@
     height: 100%;
     border: 10px solid #ffffff40;
 }
-.service-grd-fea-img a{}
+.service-grd-fea-img a{
+	display: inline-block;
+}
 .service-grd-fea-img div{
 	height: 205px;
 	transition: all .5s;
