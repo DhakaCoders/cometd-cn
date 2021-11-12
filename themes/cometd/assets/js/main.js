@@ -211,6 +211,16 @@ $(".dft-fl-btn" ).each(function( index ) {
 });
 
 
+/*Noyon*/
+
+
+
+
+/*keshob*/
+
+
+
+
 new WOW().init();
 
 })(jQuery);
