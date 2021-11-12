@@ -1,6 +1,6 @@
 (function($) {
 var windowWidth = $(window).width();
-var windowWidth_1920 = $('.page-body-cntlr').width();
+var windowWidth_1600 = $('.page-body-cntlr').width();
 
 
 $('.navbar-toggle').on('click', function(){
