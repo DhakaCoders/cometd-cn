@@ -43,3 +43,21 @@
 .ftr-menu ul li a:hover{
 	color: #98c9bf;
 }
+
+/*responsive*/
+@media(max-width: 479px){
+	.ftr-menu{
+		padding-top: 20px;
+	}
+	.ftr-menu ul{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+	.ftr-menu ul li{
+		padding: 0;
+		width: 100%;
+	}
+}
