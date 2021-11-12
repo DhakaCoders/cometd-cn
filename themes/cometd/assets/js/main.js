@@ -255,6 +255,45 @@ $(window).resize(function(){
 });
 /*jahir*/
 
+/*servicegrdSlider Slick slider*/
+if( $('.servicegrdSlider').length ){
+    $('.servicegrdSlider').slick({
+      dots: false,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 40000,
+      speed: 7000,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+            arrows:false,
+            dots: true
+
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+}
 
 
 
