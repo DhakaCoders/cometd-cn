@@ -244,10 +244,15 @@ $(window).resize(function(){
 if (windowWidth > 767) {
   if( $('.hm-contact-google-map iframe').length ){
     var mapHight = $('.hm-contact-sec-wrp').outerHeight();
-    $('.hm-contact-google-map iframe').css("height", mapHight + 2);
+    $('.hm-contact-google-map iframe').css("height", mapHight);
   }
 }
-
+$(window).resize(function(){
+  if( $('.hm-contact-google-map iframe').length ){
+    var mapHight = $('.hm-contact-sec-wrp').outerHeight();
+    $('.hm-contact-google-map iframe').css("height", mapHight);
+  }
+});
 /*jahir*/
 
 
