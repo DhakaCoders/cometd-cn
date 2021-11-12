@@ -1,43 +1,4 @@
 @font-face {
-    font-family: 'Archer';
-    src: url('Archer-Medium.eot');
-    src: url('Archer-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Archer-Medium.woff2') format('woff2'),
-        url('Archer-Medium.woff') format('woff'),
-        url('Archer-Medium.ttf') format('truetype'),
-        url('Archer-Medium.svg#Archer-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Archer';
-    src: url('Archer-Semibold.eot');
-    src: url('Archer-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('Archer-Semibold.woff2') format('woff2'),
-        url('Archer-Semibold.woff') format('woff'),
-        url('Archer-Semibold.ttf') format('truetype'),
-        url('Archer-Semibold.svg#Archer-Semibold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Archer';
-    src: url('Archer-Bold.eot');
-    src: url('Archer-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Archer-Bold.woff2') format('woff2'),
-        url('Archer-Bold.woff') format('woff'),
-        url('Archer-Bold.ttf') format('truetype'),
-        url('Archer-Bold.svg#Archer-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Archer-Light';
     src: url('Archer-Light/Archer-Light.eot');
     src: url('Archer-Light/Archer-Light.eot?#iefix') format('embedded-opentype'),

@@ -9,17 +9,28 @@
          url('LatoRegular/LatoRegular.svg#LatoRegular') format('svg');
     font-weight: normal;
 }
-
+@font-face {
+    font-family: 'Helvetica-Light';
+    src: url('Helvetica-Light/Helvetica-Light.eot');
+    src: url('Helvetica-Light/Helvetica-Light.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Light/Helvetica-Light.woff2') format('woff2'),
+        url('Helvetica-Light/Helvetica-Light.woff') format('woff'),
+        url('Helvetica-Light/Helvetica-Light.ttf') format('truetype'),
+        url('Helvetica-Light/Helvetica-Light.svg#Helvetica-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
-    font-family: 'Archer-Medium';
-    src: url('Archer-Medium/Archer-Medium.eot');
-    src: url('Archer-Medium/Archer-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Archer-Medium/Archer-Medium.woff2') format('woff2'),
-        url('Archer-Medium/Archer-Medium.woff') format('woff'),
-        url('Archer-Medium/Archer-Medium.ttf') format('truetype'),
-        url('Archer-Medium/Archer-Medium.svg#Archer-Medium') format('svg');
-    font-weight: 500;
+    font-family: 'Helvetica-Bold';
+    src: url('Helvetica-Bold/Helvetica-Bold.eot');
+    src: url('Helvetica-Bold/Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Bold/Helvetica-Bold.woff2') format('woff2'),
+        url('Helvetica-Bold/Helvetica-Bold.woff') format('woff'),
+        url('Helvetica-Bold/Helvetica-Bold.ttf') format('truetype'),
+        url('Helvetica-Bold/Helvetica-Bold.svg#Helvetica-Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -50,7 +61,6 @@
     font-display: swap;
 }
 
-
 @font-face {
     font-family: 'Archer-Light';
     src: url('Archer-Light/Archer-Light.eot');
@@ -63,4 +73,17 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Archer-Medium';
+    src: url('Archer-Medium/Archer-Medium.eot');
+    src: url('Archer-Medium/Archer-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Archer-Medium/Archer-Medium.woff2') format('woff2'),
+        url('Archer-Medium/Archer-Medium.woff') format('woff'),
+        url('Archer-Medium/Archer-Medium.ttf') format('truetype'),
+        url('Archer-Medium/Archer-Medium.svg#Archer-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 
