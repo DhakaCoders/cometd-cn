@@ -1,6 +1,102 @@
-.hm-bnr-sec{
-	height: 1040px;
+.hm-bnr-section{
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
-.hm-bnr-lft-cntnt{}
-.bnr-serv-grid-item{}
 .hm-bnr-cntnt{}
+.hm-bnr-cntnt-cntlr{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 60px;
+}
+.hm-bnr-lft-cntnt {
+    width: 63%;
+    -webkit-box-shadow: -16px 0px 32px -15px rgba(102,102,102,0.63);
+    -moz-box-shadow: -16px 0px 32px -15px rgba(102,102,102,0.63);
+    box-shadow: -16px 0px 32px -15px rgba(102,102,102,0.63);
+    padding-right: 86px;
+    background-position: right top!important;
+}
+.hm-bnr-des{
+	padding: 80px 0 80px 40px;
+}
+.hm-bnr-des h1{
+
+}
+.hm-bnr-cntnt-title{
+	color: #fff;
+	font-weight: 500;
+	font-family: 'Archer-Medium';
+	font-style: normal;
+	font-size: 42px;
+	margin-bottom: 
+}
+.hm-bnr-des p{
+	color: #fff;
+	font-style: normal;
+	font-family: 'Helvetica';
+	font-size: 20px;
+	font-weight: 400;
+}
+.hm-bnr-contact-info{
+	padding-top: 30px;
+}
+.hm-bnr-contact-info strong{
+	font-size: 14px;
+	font-weight: 700;
+	font-style: normal;
+	font-family: 'Helvetica-Bold';
+	color: #ffff99;
+}
+.hm-bnr-tel{}
+.hm-bnr-tel a{
+	font-size: 40px;
+	font-weight: 400;
+	font-family: 'Helvetica';
+	color: #fff;
+	text-decoration: none;
+}
+.hm-bnr-rgt-cntnt{
+	width: 47%;
+}
+.hm-bnr-rgt-logo{
+	margin-top: 40px;
+}
+.hm-bnr-rgt-logo img{}
+.bnr-service-grd-cntlr-row{
+	padding-top: 120px;
+}
+.service-grids-cntlr{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 0 -9px;
+}
+.service-grd-col{
+	padding: 0 9px;
+	width: 20%;
+}
+.service-grd-item {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #ffffff40;
+}
+.service-grd-fea-img a{}
+.service-grd-fea-img div{
+	height: 205px;
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+}
+.service-grd-fea-img img{
+	display: none;
+}
+.service-grd-fea-img {
+    position: relative;
+    overflow: hidden;
+}
+.service-grd-item:hover .service-grd-fea-img div{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
