@@ -219,8 +219,34 @@ $(".dft-fl-btn" ).each(function( index ) {
 
 /*keshob*/
 
+var windowWidth_1600 = $('.page-body-cntlr').width();
+var containerWidth = $('.container').width();
+var containerOffset = (windowWidth_1600 - containerWidth);
+var containerOffsetRgt = containerOffset / 2;
+var content = $('.hm-contact-con-rgt-inner').width();
+var imgWidth = (containerOffsetRgt + content);
+
+$('.hm-contact-map-cntlr').css("width", imgWidth);
 
 
+$(window).resize(function(){
+  var windowWidth_1600 = $('.page-body-cntlr').width();
+  var containerWidth = $('.container').width();
+  var containerOffset = (windowWidth_1600 - containerWidth);
+  var containerOffsetRgt = containerOffset / 2;
+  var content = $('.hm-contact-con-rgt-inner').width();
+  var imgWidth = (containerOffsetRgt + content);
+  $('.hm-contact-map-cntlr').css("width", imgWidth);
+});
+
+
+
+if (windowWidth > 767) {
+  if( $('.hm-contact-google-map iframe').length ){
+    var mapHight = $('.hm-contact-sec-wrp').outerHeight();
+    $('.hm-contact-google-map iframe').css("height", mapHight + 2);
+  }
+}
 
 /*jahir*/
 
