@@ -223,6 +223,10 @@ $(".dft-fl-btn" ).each(function( index ) {
 
 
 
+/*jahir*/
+
+
+
 
 new WOW().init();
 
