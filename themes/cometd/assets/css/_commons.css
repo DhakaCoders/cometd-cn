@@ -20,7 +20,8 @@ body {
     color: #565d60;
     font-size: 21px;
     line-height: 27px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica-Normal';
+    /*font-family: 'Helvetica';*/
     /*font-family: 'Helvetica-Bold';*/
 	/*font-family: 'Helvetica-Light';*/
 	/*font-family: 'Archer-Semibold';*/
