@@ -1,24 +1,24 @@
-nav.main-nav ul{
 
-}
-nav.main-nav ul li{
-	
-}
 nav.main-nav ul li a{
-	
+	display: inline-block;
+	position: relative;
+	color: #565d60;
+	text-transform: uppercase;
 }
 nav.main-nav > ul{
-
+	padding-top: 10px;
 }
 nav.main-nav > ul > li{
+	position: relative;
 
 }
 nav.main-nav > ul > li > a{
-
+	padding-bottom: 10px;
+	font-size: 16px;
 }
 
 nav.main-nav > ul > li.current-menu-item > a{
-
+	padding-right: 20px;
 }
 
 nav.main-nav > ul > li.menu-item-has-children > a{
@@ -27,4 +27,17 @@ nav.main-nav > ul > li.menu-item-has-children > a{
 
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	
+}
+
+
+.hdr-tel span{
+	archar semibol;
+	font-size: 14px;
+	color: #3b4447;
+}
+.hdr-tel a{
+	display: inline-block;
+	font-size: 40px;
+	color: #98c9bf;
+	helbetika bold
 }
