@@ -40,6 +40,7 @@
 	font-family: 'Helvetica';
 	text-decoration: none;
 }
+.ftr-menu ul li.current-menu-item a,
 .ftr-menu ul li a:hover{
 	color: #98c9bf;
 }
