@@ -45,3 +45,68 @@
 .sitemap ol li a:focus{
 	text-decoration: underline;
 }
+
+
+
+.default-page-con ul,
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+.default-page-con ul li,
+ul li {
+	padding: 5px 0 15px 22px;
+	position: relative;
+	line-height: 22px;
+}
+.default-page-con ul li::before,
+ul li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #98c9bf;
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	margin-top: 9px;
+}
+
+
+
+.default-page-con ol,
+ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	counter-reset: my-awesome-counter;
+	-ms-counter-reset: my-awesome-counter;
+	-webkit-counter-reset: my-awesome-counter;
+}
+.default-page-con ol li,
+ol li {
+	padding: 5px 0 15px 22px;
+	position: relative;
+	line-height: 22px;
+	counter-increment: my-awesome-counter;
+	-ms-counter-increment: my-awesome-counter;
+	-webkit-counter-increment: my-awesome-counter;
+}
+.default-page-con ol li::before,
+ol li::before {
+	content: counter(my-awesome-counter) ".";
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #98c9bf;
+	font-family: 'Helvetica-Bold';
+	line-height: 16px;
+	text-align: center;
+	margin-top: 6px;
+}
+.page-contant-sec{
+	padding: 60px 0;
+}

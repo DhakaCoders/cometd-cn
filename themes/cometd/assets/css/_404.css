@@ -1,0 +1,49 @@
+.page-404-sec-wrp {
+    padding-bottom: 85px;
+    padding-top: 50px;
+}
+.page-404-dsc-wrp{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-404-dsc-wrp .title-404 {
+    
+}
+.title-404{
+    display: inline-block;
+    vertical-align: baseline;
+    padding-bottom: 40px;
+    color: #565d60;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.page-404-dsc-wrp span {
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #565d60;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.page-404-dsc-wrp p {
+    margin-bottom: 60px;
+}
+.page-404-btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.page-404-sec-wrp{
+    position: relative;
+    z-index: 9;
+}
+
+@media (max-width: 359px){
+    .page-404-btn a{
+        max-width: 100%;
+    }
+}

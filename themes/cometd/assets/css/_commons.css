@@ -63,6 +63,28 @@ textarea{
   color: #fff;
   background: #99c9bf;
 }
+
+
+
+.fl-btn{
+	display: inline-block;
+	vertical-align: baseline;
+	min-width: 200px;
+	color: #FFFFFF;
+	background: #565d60;
+	font-size: 18px;
+	font-family: 'Helvetica-Bold';
+	line-height: 1.1;
+	text-align: center;
+	padding: 13px 13px 12px;
+	border: 2px solid #565d60;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.fl-btn:hover{
+	background: transparent;
+	color: #565d60;
+}
 /*-- app gap use pattern --*/
 /*data-xxs = 575
 data-xs = 767
