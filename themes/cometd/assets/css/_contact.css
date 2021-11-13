@@ -50,6 +50,7 @@
 	color: #fffeff;
 	font-size: 24px;
 	font-family: 'Helvetica-Light';
+	font-weight: 400;
 	text-decoration: none;
 }
 .contact-info-row-2 > span{
@@ -65,10 +66,7 @@
 .contact-info-row:last-child{
 	border-bottom: none;
 }
-.contact-info-row-3 span,
-.contact-info-row-3 a{
-	font-family: 'Helvetica-Bold';
-}
+
 .contact-info-row-1 .contact-info-title{
 	font-family: 'Archer-Semibold';
 }
@@ -76,8 +74,11 @@
 	padding-left: 10px;
 	font-family: 'Helvetica-Normal';
 }
+.contact-info-row-3 span{
+	font-family: 'Archer-Bold';
+}
 .contact-info-row a:hover{
-	color: #88cbbf;
+	opacity: .8;
 }
 .contact-info-row-3{
 	padding-top: 22px;
