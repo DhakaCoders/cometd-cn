@@ -263,7 +263,7 @@ if( $('.servicegrdSlider').length ){
       autoplay: true,
       autoplaySpeed: 4000,
       speed: 700,
-      slidesToShow: 3,
+      slidesToShow: 5,
       slidesToScroll: 1,
       responsive: [
         {
