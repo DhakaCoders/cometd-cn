@@ -44,7 +44,7 @@
 	font-style: normal;
 	font-family: 'Helvetica-Bold';
 	color: #ffff99;
-	display: inline-block;
+	display: block;
 }
 .hm-bnr-tel a{
 	font-size: 40px;
