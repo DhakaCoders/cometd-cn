@@ -18,17 +18,17 @@ a, a:hover, a:focus, button:hover, button:focus{
 body {
     background: #ffffff;
     color: #565d60;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 27px;
     font-family: 'Helvetica-Normal';
-    /*font-family: 'Helvetica';*/
-    /*font-family: 'Helvetica-Bold';*/
-	/*font-family: 'Helvetica-Light';*/
-	/*font-family: 'Archer-Semibold';*/
-	/*font-family: 'Archer-Medium';*/
-	/*font-family: 'Archer-Light';*/
-	/*font-family: 'Archer-Bold';*/
 }
+/*font-family: 'Helvetica';*/
+/*font-family: 'Helvetica-Bold';*/
+/*font-family: 'Helvetica-Light';*/
+/*font-family: 'Archer-Semibold';*/
+/*font-family: 'Archer-Medium';*/
+/*font-family: 'Archer-Light';*/
+/*font-family: 'Archer-Bold';*/
 p{
 	line-height: 1.2;
 	margin-bottom: 15px;

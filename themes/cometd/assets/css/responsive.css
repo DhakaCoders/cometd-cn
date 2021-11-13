@@ -34,9 +34,6 @@
 	h1,.fl-h1{
 		font-size: 40px;
 	}
-	body{
-		font-size: 20px;
-	}
 }
 
 @media(max-width: 991px){

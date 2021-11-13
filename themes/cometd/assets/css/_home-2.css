@@ -1,25 +1,21 @@
 .hm-bnr-section {
 	padding: 50px 0 60px;
     min-height: 900px;
-    /*background-position: left -100px!important;*/
-    background-position: 100% 100%!important;
+    background-position: left bottom!important;
 }
-.hm-bnr-cntnt-cntlr{
+.hm-bnr-cntnt{
 	display: flex;
-	justify-content: center;
-	padding-bottom: 40px;
+	padding-bottom: 0;
 	flex-wrap:wrap;
+    background-repeat: no-repeat;
+    margin-left: -5px;
+     background-size: auto 100%!important;
 }
 .hm-bnr-lft-cntnt {
-    width: 55%;
-    -webkit-box-shadow: -16px 0px 32px -15px rgba(102,102,102,0.63);
-    -moz-box-shadow: -16px 0px 32px -15px rgba(102,102,102,0.63);
-    box-shadow: -16px 0px 13px -16px rgb(100 100 100 / 63%);
-
-    background-position: right top!important;
+    width: 60%;
 }
 .hm-bnr-des{
-	padding: 85px 65px 85px 40px;
+	padding: 85px 95px 85px 40px;
 }
 .hm-bnr-cntnt-title{
 	color: #fff;
@@ -28,6 +24,7 @@
 	font-style: normal;
 	font-size: 42px;
 	display: inline-block;
+	text-shadow: 2px 2px 2px #52585a;
 }
 .hm-bnr-des p{
 	color: #fff;
@@ -48,17 +45,19 @@
 }
 .hm-bnr-tel a{
 	font-size: 40px;
+	line-height: 1;
 	font-weight: 400;
 	font-family: 'Helvetica';
 	color: #fff;
 	text-decoration: none;
 	display: inline-block;
+	text-shadow: 2px 2px 2px #52585a;
 }
 .hm-bnr-tel a:hover{
-	color: #373d3f;
+	opacity: .8;
 }
 .hm-bnr-rgt-cntnt{
-	width: 45%;
+	width: 40%;
 }
 .hm-bnr-rgt-logo{
 	margin-top: 40px;
@@ -105,82 +104,44 @@
 	-moz-transform: scale(1.1);
 }
 
-/*___________________________________ responsive _________________________________________________*/
-@media(max-width:1699px){
-	.hm-bnr-des {
-    padding: 85px 26px 85px 40px;
-}
-}
-@media(max-width: 1399px){
-	.hm-bnr-lft-cntnt {
-    width: 50%;
-    padding-right: 43px;
-}
-.hm-bnr-rgt-cntnt {
-    padding-left: 20px;
-}
 
-.hm-bnr-des {
-    padding: 60px 0 60px 30px;
-}
-
-.hm-bnr-section{
-	min-height: 600px;
-}
-.hm-bnr-rgt-logo img{
-	width: 290px;
-}
-.hm-bnr-des p{
-	font-size: 18px;
-}
-.hm-bnr-tel a {
-    font-size: 38px;
-}
-
-
-}
 @media(max-width: 1199px){
-
-.hm-bnr-des {
-    padding: 50px 20px 50px 40px;
-}
-.hm-bnr-des p{
-	font-size: 17px;
-}
-.hm-bnr-contact-info {
-    padding-top: 20px;
-}
-
-.hm-bnr-lft-cntnt {
-    padding-right: 0;
-}
-	
-.hm-bnr-tel a {
-    font-size: 36px;
-}
-.hm-bnr-contact-info strong{
-	font-size: 13px;
-}
-
-
+	.hm-bnr-des {
+	    padding: 50px 20px 50px 40px;
+	}
+	.hm-bnr-des p{
+		font-size: 17px;
+	}
+	.hm-bnr-contact-info {
+	    padding-top: 20px;
+	}
+	.hm-bnr-lft-cntnt {
+	    padding-right: 0;
+	}
+	.hm-bnr-tel a {
+	    font-size: 36px;
+	}
+	.hm-bnr-contact-info strong{
+		font-size: 13px;
+	}
 }
 @media(max-width: 991px){
-.hm-bnr-des {
-    padding: 40px 20px 40px 30px;
-}
-.hm-bnr-des p {
-    font-size: 16px;
-}
-.hm-bnr-rgt-logo img {
-    width: 250px;
-}
+	.hm-bnr-des {
+	    padding: 40px 20px 40px 30px;
+	}
+	.hm-bnr-des p {
+	    font-size: 16px;
+	}
+	.hm-bnr-rgt-logo img {
+	    width: 250px;
+	}
 
-.hm-bnr-lft-cntnt{
-	width: 56%;
-}
-.hm-bnr-rgt-cntnt {
-    width: 44%;
-}		
+	.hm-bnr-lft-cntnt{
+		width: 56%;
+	}
+	.hm-bnr-rgt-cntnt {
+	    width: 44%;
+	}		
 
 }
 @media(max-width: 767px){
@@ -193,43 +154,43 @@
 	.hm-bnr-lft-cntnt {
 		width: 100%;
 		order: 2;
-
-		}
-
+	}
 	.hm-bnr-rgt-cntnt {
 		width: 100%;
 		order: 1;
 		padding-bottom: 30px;
-		}
-
-	.hm-bnr-cntnt-cntlr {
+	}
+	.hm-bnr-cntnt {
 		justify-content: flex-start;
-		}
-		.bnr-service-grd-cntlr-row {
-    padding-top: 20px;
-}
+	}
+	.bnr-service-grd-cntlr-row {
+    	padding-top: 20px;
+	}
 	.hm-bnr-section {
-    padding: 30px 0 60px;
-}	
-.hm-bnr-rgt-logo {
-    margin-top: 0;
-}
+    	padding: 30px 0 60px;
+	}	
+	.hm-bnr-rgt-logo {
+    	margin-top: 0;
+	}
 
 }
-@media(max-width: 639px){}
+@media(max-width: 639px){
+
+}
+
 @media(max-width: 575px){
 	.service-grd-fea-img div {
-    height: 155px;
-}
-.hm-bnr-des {
-    padding: 25px 20px 30px 20px;
-}
-.hm-bnr-rgt-logo img {
+	height: 155px;
+	}
+	.hm-bnr-des {
+	padding: 25px 20px 30px 20px;
+	}
+	.hm-bnr-rgt-logo img {
 		    width: 200px;
 		}
-.bnr-service-grd-cntlr-row {
-    padding-top: 0px;
-}
+	.bnr-service-grd-cntlr-row {
+	padding-top: 0px;
+	}
 }
 @media(max-width: 479px){}
 @media(max-width: 379px){}
