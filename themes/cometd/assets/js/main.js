@@ -258,12 +258,12 @@ $(window).resize(function(){
 /*servicegrdSlider Slick slider*/
 if( $('.servicegrdSlider').length ){
     $('.servicegrdSlider').slick({
-      dots: false,
+      dots: true,
       infinite: false,
       autoplay: true,
       autoplaySpeed: 4000,
       speed: 700,
-      slidesToShow: 5,
+      slidesToShow: 3,
       slidesToScroll: 1,
       responsive: [
         {

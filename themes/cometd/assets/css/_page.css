@@ -30,6 +30,19 @@
 	display: none; 
 }
 
+.service-grids-cntlr ul.slick-dots{
+	bottom: -30px;
+	position: absolute;
+}
+.bnr-service-grd-cntlr-row .slick-dotted.slick-slider{
+	margin-bottom: 0;
+}
+.service-grids-cntlr ul.slick-dots li button{
+	background: #a9a9a9!important;
+}
+.service-grids-cntlr ul.slick-dots li.slick-active button{
+	background: #fff!important;
+}
 
 .sitemap{
 	padding: 50px 0 70px;
