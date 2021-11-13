@@ -261,8 +261,8 @@ if( $('.servicegrdSlider').length ){
       dots: false,
       infinite: false,
       autoplay: true,
-      autoplaySpeed: 40000,
-      speed: 7000,
+      autoplaySpeed: 4000,
+      speed: 700,
       slidesToShow: 5,
       slidesToScroll: 1,
       responsive: [
