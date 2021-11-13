@@ -31,8 +31,9 @@
 }
 
 .service-grids-cntlr ul.slick-dots{
-	bottom: -35px;
-	position: absolute;
+	bottom: 0;
+	position: static;
+	padding-top: 25px!important;
 }
 .bnr-service-grd-cntlr-row .slick-dotted.slick-slider{
 	margin-bottom: 0;

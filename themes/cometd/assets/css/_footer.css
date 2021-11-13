@@ -46,10 +46,17 @@
 }
 
 /*responsive*/
-@media(max-width: 479px){
+@media(max-width: 767px){
 	.ftr-menu{
 		padding-top: 20px;
 	}
+	.ftr-menu ul li{
+		width: 50%;
+		text-align: center;
+	}
+}
+@media(max-width: 479px){
+	
 	.ftr-menu ul{
 		display: flex;
 		align-items: center;
@@ -57,9 +64,5 @@
 		flex-wrap: wrap;
 		margin: 0;
 	}
-	.ftr-menu ul li{
-		padding: 0;
-		width: 100%;
-		text-align: center;
-	}
+	
 }
