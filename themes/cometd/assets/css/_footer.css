@@ -13,7 +13,7 @@
 	text-align: center;
 }
 .ftr-copyright p{
-	margin-bottom: 0;
+	margin-bottom: 10px;
 	line-height: 1;
 	color: #787e80;
 	font-size: 14px;
@@ -60,5 +60,6 @@
 	.ftr-menu ul li{
 		padding: 0;
 		width: 100%;
+		text-align: center;
 	}
 }
