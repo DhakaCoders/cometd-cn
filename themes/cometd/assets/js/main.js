@@ -278,17 +278,36 @@ if( $('.servicegrdSlider').length ){
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 800,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
+            arrows:false,
             slidesToScroll: 1
+
           }
         },
         {
-          breakpoint: 480,
+          breakpoint:576,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows:false,
+          }
+        },
+        {
+          breakpoint:576,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows:false,
+          }
+        },
+        {
+          breakpoint:400,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            arrows:false,
           }
         }
       ]
