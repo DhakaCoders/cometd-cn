@@ -75,7 +75,7 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 function phone_preg( $show_telefoon ){
   $replaceArray = '';
-  $spacialArry = array(".", "/", "+", " ", ")", "(");
+  $spacialArry = array(".", "/", "+", " ", ")", "(", "-");
   $show_telefoon = trim(str_replace($spacialArry, $replaceArray, $show_telefoon));
   return $show_telefoon;
 }
@@ -268,16 +268,6 @@ function bv_get_current_year(){
     return date('Y');
 }
 add_shortcode( 'cyear', 'bv_get_current_year' );
-
-function cbv_get_excerpt(){
-  global $post;
-  $link = '<a href="'. get_permalink($post->ID) . '">'.__(' ....more', 'postat').'</a>';
-  $excerpt = explode(' ', get_the_excerpt());
-  //array_pop($excerpt);
-  $excerpt = implode(" ",$excerpt);
-  $excerpt .= $link;
-  return wpautop($excerpt);
-}
 
 add_action('admin_head', 'cbv_admin_style');
 function cbv_admin_style(){

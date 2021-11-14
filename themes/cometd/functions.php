@@ -36,7 +36,7 @@ if( !function_exists('cbv_theme_setup') ){
 
         register_nav_menus( array(
             'cbv_main_menu' => __( 'Main Menu', 'lpw' ),
-            'cbv_copyright_menu' => __( 'Copyright', 'lpw' ),
+            'cbv_ft_menu' => __( 'Footer Menu', 'lpw' )
         ) );
 
     }
@@ -66,10 +66,7 @@ add_action( 'wp_enqueue_scripts', 'cbv_theme_scripts');
 /**
 Includes->>
 */
-//include_once(THEME_DIR .'/inc/widgets-area.php');
-include_once(THEME_DIR .'/inc/breadcrumbs.php');
 include_once(THEME_DIR .'/inc/cbv-functions.php');
-//include_once(THEME_DIR .'/inc/ajax-services-load.php');
 /**
 ACF Option pages->>
 */
