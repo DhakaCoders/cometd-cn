@@ -70,12 +70,11 @@ $intro = get_field('intro', HOMEID);
   $address = get_field('address', 'options');
   $gurl = get_field('gurl', 'options');
   $gmaplink = !empty($gurl)?$gurl: 'javascript:void()';
-  $profile_image = get_field('profile_image', HOMEID);
 ?>
 <section class="hm-contact-sec-wrp">
-  <?php if( !empty($profile_image) ): ?>
+  <?php if( !empty($proinfo['profile_image']) ): ?>
   <div class="hm-contact-lft-img-cntlr">
-    <?php echo cbv_get_image_tag($profile_image); ?>
+    <?php echo cbv_get_image_tag($proinfo['profile_image']); ?>
   </div>
   <?php endif; ?>
   <div class="container">
@@ -88,7 +87,7 @@ $intro = get_field('intro', HOMEID);
                 <div class="contact-info-row contact-info-row-1">
                   <?php 
                     if( !empty($proinfo['name']) ) printf('<h2 class="fl-h3 contact-info-title">%s</h2>', $proinfo['name']); 
-                    if( !empty($address) ) printf('<a href="%s">%s</a>', $gmaplink, $address); 
+                    if( !empty($address) ) printf('<a href="%s" target="_blank">%s</a>', $gmaplink, $address); 
                   ?>
                 </div>
                 <?php if( !empty($proinfo['office_hours']) ): ?>
